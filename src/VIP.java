@@ -1,5 +1,5 @@
 public class VIP extends Ingresso{
-    private double ValorAdicional;
+    private final double ValorAdicional;
 
     public VIP(double ValorAdicional, double valor){
         super(valor);

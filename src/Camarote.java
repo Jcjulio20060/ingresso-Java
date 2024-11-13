@@ -1,5 +1,5 @@
 public class Camarote extends VIP{
-    private String Localizacao;
+    private final String Localizacao;
 
     public Camarote(double valor, double ValorAdicional, String Localizacao){
         super(valor, ValorAdicional);
